@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="px_xtras",  # The name of your package on PyPI and for import
+    name="px_xtras2",
     version="0.1.0",   # Matches the version in your library header
     author="Alan Jones",
     author_email="your.email@example.com",  # Replace with your actual email
