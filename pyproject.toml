@@ -15,6 +15,6 @@ include = [
   "px_xtras2"
 ]
 exclude = [
-    "demo",
-    "images"
+    "/demo",
+    "/images"
   ]
