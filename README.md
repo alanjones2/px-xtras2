@@ -1,4 +1,4 @@
-# px_xtras - a Plotly Helper Library
+# px_xtras2 - a Plotly Helper Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -22,7 +22,7 @@ This library provides functions for creating the following advanced chart types:
 To install *px_extras*, you can use pip:
 
 ```bash
-pip install git+https://github.com/alanjones2/px_xtras.git
+pip install git+https://github.com/alanjones2/px_xtras2.git
 ```
 Or download the library from the repo and drop it into your project.
 
@@ -180,16 +180,3 @@ This project is licensed under the MIT License.
 ## History
 
 v.0.1.0 initial version
-v0.1.0 initial release
-
-v0.1.1 - 05/08/2025
-- modify waterfall default measures to begin with absolute and end with total
-- add measures as df column
-- add default column names
-
-v0.1.2 - 04/09/2025
-- add the following:
-    - lollipop chart
-    - range chart
-    - slope chart
-    - metric

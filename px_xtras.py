@@ -1,5 +1,5 @@
 """
-px_xtras.py v.0.1.2
+px_xtras.py v.0.1.0
 
 A library of helper functions for creating advanced visualizations using Plotly.
 
