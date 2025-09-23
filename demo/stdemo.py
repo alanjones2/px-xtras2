@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import px_xtras as pxx
+import px_xtras2 as pxx
 
 st.title("Extra Plotly Charts")
 
