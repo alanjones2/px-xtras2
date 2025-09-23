@@ -9,3 +9,12 @@ dependencies = [
     "pandas>=2.3.2",
     "plotly>=6.3.0"
 ]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "px_xtras2"
+]
+exclude = [
+    "demo",
+    "images"
+  ]
