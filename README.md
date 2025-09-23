@@ -22,7 +22,7 @@ This library provides functions for creating the following advanced chart types:
 To install *px_extras*, you can use pip:
 
 ```bash
-pip install git+https://github.com/alanjones2/px_xtras2.git
+pip install git+https://github.com/alanjones2/px-xtras2.git
 ```
 Or download the library from the repo and drop it into your project.
 
