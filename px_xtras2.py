@@ -179,7 +179,7 @@ def waterfall(
         measure[0] = 'absolute'
         measure[-1] = 'total'
         return measure
-
+    
     categories, data = _prepare_chart_data(
         df=df,
         data_map=[
@@ -187,6 +187,8 @@ def waterfall(
             ('values', values_col, data)
         ]
     )
+    
+
 
     # Handle measure separately as it's specific to waterfall
     if df is not None and measure_col and measure_col in df.columns:
@@ -255,7 +257,7 @@ def waffle(
     if df is not None:
         categories, values = _prepare_chart_data(
             df=df,
-            data_map=[('categories', categories_col, None), ('values', values_col, None)]
+            data_map=[('categories', categories_col, None), ('data', values_col, None)]
         )
         data = dict(zip(categories, values))
     elif data is None:

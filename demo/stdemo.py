@@ -14,12 +14,18 @@ wf_data = pd.DataFrame({
 fig_wf = pxx.waterfall(df=wf_data, 
                    categories_col='Category',
                    values_col='Value',
-                   title="Company Profit Waterfall",
-                   height=400,
-                   template='plotly_dark'
+                   title="Company Profit Waterfall"
                    )
 st.plotly_chart(fig_wf)
 
+st.header("Waterfall Chart - Profit Breakdown")
+
+fig_wf = pxx.waterfall(
+                   categories=["Revenue", "COGS", "Operating Expenses", "Taxes", "Net Profit"],
+                   values=[100000, -50000, -20000, -10000, 0],
+                   title="Company Profit Waterfall (list version)"
+        )
+st.plotly_chart(fig_wf)
 
 # --- Waterfall Chart ---
 st.header("Waterfall Chart")

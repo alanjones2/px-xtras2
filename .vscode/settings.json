@@ -1,3 +1,4 @@
 {
-    "taipyStudio.config.mainPythonFile": "px_xtras2.py"
+    "taipyStudio.config.mainPythonFile": "px_xtras2.py",
+    "taipyStudio.gUI.elementsFilePaths": []
 }
